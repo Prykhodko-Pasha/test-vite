@@ -6,10 +6,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/": {
-        target: "https://singaporemath.online:3001/api/v1",
+      "/api/v1": {
+        target: "https://singaporemath.online:3001",
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\//, ""),
+        rewrite: (path) => path.replace(/^\/api\/v1/, "/api/v1"),
       },
     },
   },

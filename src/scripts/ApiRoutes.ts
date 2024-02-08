@@ -3,7 +3,7 @@ import { parseAccountData } from "./DataParser";
 import { AssignmentPayload } from "./Assignment";
 
 //actual API url
-const smartliURL = "https://singaporemath.online:3001/api/v1";
+const smartliURL = "/api/v1";
 
 //function for sending newly signed up accounts a verification email
 export const sendVerificationEmail = (email: string, uid: string) => {
@@ -220,10 +220,10 @@ export const CreateClassroom = (email: string, id: string, name: string) => {
     });
 };
 
-export const GetClassrooms = (email: string, id: string, teacher : boolean) => {
+export const GetClassrooms = (email: string, id: string, teacher: boolean) => {
   return axios
     .post(
-      `${smartliURL}/teacher/${teacher ? 'teacher' : 'user'}-classrooms`,
+      `${smartliURL}/teacher/${teacher ? "teacher" : "user"}-classrooms`,
       {
         email: email,
         id: id,
@@ -250,9 +250,7 @@ export const GetClassrooms = (email: string, id: string, teacher : boolean) => {
         message: error.response.data.message,
       };
     });
-
 };
-
 
 export const JoinClassroom = (
   email: string,
@@ -298,11 +296,11 @@ export const GetAssignments = (
   email: string,
   id: string,
   classroomCode: string,
-  teacher : boolean
+  teacher: boolean
 ) => {
   return axios
     .post(
-      `${smartliURL}/teacher/${teacher ? 'teacher' : 'user'}-assignments`,
+      `${smartliURL}/teacher/${teacher ? "teacher" : "user"}-assignments`,
       {
         email: email,
         id: id,
@@ -349,42 +347,38 @@ export const deleteAccount = (email: string, password: string) => {
     .then((response) => {
       return {
         success: true,
-        status: response.status
+        status: response.status,
       };
     })
     .catch((error) => {
       return {
         success: false,
         status: 500,
-        data: error
+        data: error,
       };
     });
 };
 
 export const submitAssignment = (assignment: AssignmentPayload) => {
   return axios
-  .post(
-    `${smartliURL}/teacher/assignment`, 
-    assignment,
-    {
+    .post(`${smartliURL}/teacher/assignment`, assignment, {
       headers: {
         "Content-Type": "application/json",
       },
-    }
-  )
-  .then((response) => {
-    return {
-      success: true,
-      status: response.status,
-      data: response.data,
-      message: response.data.message,
-    };
-  })
-  .catch((error) => {
-    return {
-      success: false,
-      status: 500,
-      data: error
-    };
-  });
+    })
+    .then((response) => {
+      return {
+        success: true,
+        status: response.status,
+        data: response.data,
+        message: response.data.message,
+      };
+    })
+    .catch((error) => {
+      return {
+        success: false,
+        status: 500,
+        data: error,
+      };
+    });
 };
