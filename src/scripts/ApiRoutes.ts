@@ -3,7 +3,7 @@ import { parseAccountData } from "./DataParser";
 import { AssignmentPayload } from "./Assignment";
 
 //actual API url
-const smartliURL = "/api/v1";
+const smartliURL = "https://singaporemath.online:3001/api/v1";
 
 //function for sending newly signed up accounts a verification email
 export const sendVerificationEmail = (email: string, uid: string) => {
@@ -36,6 +36,8 @@ export const login = (email: string, password: string) => {
       {
         headers: {
           "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
         },
       }
     )
