@@ -36,8 +36,6 @@ export const login = (email: string, password: string) => {
       {
         headers: {
           "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Credentials": "true",
         },
       }
     )
