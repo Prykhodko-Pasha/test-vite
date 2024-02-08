@@ -1,0 +1,324 @@
+{
+  "chapters": [
+    {
+      "title": "Numbers to 10",
+      "location": "Planaterium",
+      "minigameNames": [
+        {
+          "title": "Let's Count to 10",
+          "performance_weights": ["50", "30", "20"]
+        },
+        {
+          "title": "Let's Compare Numbers",
+          "performance_weights": ["50", "40", "10"]
+        },
+        {
+          "title": "Understanding Number Patterns",
+          "performance_weights": ["50", "40", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Number Bonds",
+      "location": "Farm",
+      "minigameNames": [
+        {
+          "title": "Number Bonds",
+          "performance_weights": ["50", "30", "20"]
+        }
+      ]
+    },
+    {
+      "title": "Addition within 10",
+      "location": "Fire Station",
+      "minigameNames": [
+        {
+          "title": "Ways to Subtract",
+          "performance_weights": ["50", "50", "10"]
+        },
+        {
+          "title": "Making Subtraction Stories",
+          "performance_weights": ["50", "10", "40"]
+        }
+      ]
+    },
+    {
+      "title": "Subtraction within 10",
+      "location": "Carnival",
+      "minigameNames": [
+        {
+          "title": "Learning Ways to Subtract",
+          "performance_weights": ["50", "50", "10"]
+        },
+        {
+          "title": "Subtraction Stories",
+          "performance_weights": ["50", "50", "10"]
+        },
+        {
+          "title": "Let's Making Fact Families",
+          "performance_weights": ["50", "50", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Shapes and Patterns",
+      "location": "Bakery",
+      "minigameNames": [
+        {
+          "title": "Learning About Shapes",
+          "performance_weights": ["50", "140", "10"]
+        },
+        {
+          "title": "Everday Shapes around Us",
+          "performance_weights": ["50", "120", "10"]
+        },
+        {
+          "title": "Patterns with Shapes",
+          "performance_weights": ["50", "40", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Ordinal Numbers and Patterns",
+      "location": "Sports Arena",
+      "minigameNames": [
+        {
+          "title": "Learning Ordinal Numbers",
+          "performance_weights": ["50", "40", "10"]
+        },
+        {
+          "title": "What are Positional Words?",
+          "performance_weights": ["50", "40", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Numbers to 20",
+      "location": "Supermarket",
+      "minigameNames": [
+        {
+          "title": "Let's Count to 20",
+          "performance_weights": ["50", "140", "10"]
+        },
+        {
+          "title": "Let's Compare Numbers fron 1 to 20",
+          "performance_weights": ["50", "90", "160"]
+        },
+        {
+          "title": "Understanding Number Patterns from 1 to 20",
+          "performance_weights": ["50", "150", "100"]
+        }
+      ]
+    },
+    {
+      "title": "Addition with Subtraction within 20",
+      "location": "Beach",
+      "minigameNames": [
+        {
+          "title": "Learn Ways to Add 1 to 20",
+          "performance_weights": ["50", "50", "10"]
+        },
+        {
+          "title": "Learn Ways to Subtract 1 to 20",
+          "performance_weights": ["50", "20", "30"]
+        },
+        {
+          "title": "Word Problems with Addition and Subtraction",
+          "performance_weights": ["50", "50", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Length",
+      "location": "Stationery Store",
+      "minigameNames": [
+        {
+          "title": "Comparing Length of Two Objects",
+          "performance_weights": ["50", "140", "10"]
+        },
+        {
+          "title": "Comparing Length of More Than Two Objects",
+          "performance_weights": ["50", "80", "10"]
+        },
+        {
+          "title": "Find length Using a Start Line",
+          "performance_weights": ["50", "80", "10"]
+        },
+        {
+          "title": "Learn to Measure Length",
+          "performance_weights": ["50", "50", "10"]
+        },
+        {
+          "title": "Measuring Length in Units",
+          "performance_weights": ["50", "100", "60"]
+        }
+      ]
+    },
+    {
+      "title": "Numbers to 40",
+      "location": "School Gym",
+      "minigameNames": [
+        {
+          "title": "Let's count to 40",
+          "performance_weights": ["50", "80", "10"]
+        },
+        {
+          "title": "Let's Compare Numbers from 1 to 40",
+          "performance_weights": ["50", "50", "10"]
+        },
+        {
+          "title": "Comparing, Ordering and forming Number Patterns from 1 to 40",
+          "performance_weights": ["50", "20", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Addition within 40",
+      "location": "Aquarium",
+      "minigameNames": [
+        {
+          "title": "Learn Addition Without Regrouping",
+          "performance_weights": ["50", "130", "10"]
+        },
+        {
+          "title": "Learn Addition With Regrouping",
+          "performance_weights": ["50", "60", "10"]
+        },
+        {
+          "title": "Addition Three Numbers",
+          "performance_weights": ["50", "40", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Subtraction within 40",
+      "location": "Bird Park",
+      "minigameNames": [
+        {
+          "title": "Learn Subtraction Without Regrouping",
+          "performance_weights": ["50", "50", "10"]
+        },
+        {
+          "title": "Learn Subtraction With Regrouping",
+          "performance_weights": ["50", "30", "20"]
+        },
+        {
+          "title": "Subtraction Word Problems",
+          "performance_weights": ["50", "20", "30"]
+        }
+      ]
+    },
+    {
+      "title": "Picture Graphs",
+      "location": "Zoo",
+      "minigameNames": [
+        {
+          "title": "Picture Graphs are Fun",
+          "performance_weights": ["50", "30", "20"]
+        }
+      ]
+    },
+    {
+      "title": "Multiplication",
+      "location": "Train Station",
+      "minigameNames": [
+        {
+          "title": "Introducing Multiplication: Add Same Number",
+          "performance_weights": ["50", "20", "30"]
+        },
+        {
+          "title": "Multiplication Stories",
+          "performance_weights": ["50", "20", "30"]
+        },
+        {
+          "title": "Multiplication Word Problems",
+          "performance_weights": ["50", "20", "30"]
+        }
+      ]
+    },
+    {
+      "title": "Division",
+      "location": "Bus Station",
+      "minigameNames": [
+        {
+          "title": "Introducing Division",
+          "performance_weights": ["50", "30", "20"]
+        }
+      ]
+    },
+    {
+      "title": "Time",
+      "location": "Library",
+      "minigameNames": [
+        {
+          "title": "Learning About Time",
+          "performance_weights": ["50", "70", "80"]
+        },
+        {
+          "title": "Telling Time to The Half Hour",
+          "performance_weights": ["50", "40", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Numbers to 100",
+      "location": "Park",
+      "minigameNames": [
+        {
+          "title": "Let's Count to 100",
+          "performance_weights": ["50", "40", "10"]
+        },
+        {
+          "title": "Comparing, Ordering and forming Number Patterns from 1 to 100",
+          "performance_weights": ["50", "40", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Addition within 100",
+      "location": "Toy Store",
+      "minigameNames": [
+        {
+          "title": "Learn Addition Without Regrouping",
+          "performance_weights": ["50", "40", "10"]
+        },
+        {
+          "title": "Learn Addition With Regrouping",
+          "performance_weights": ["50", "40", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Subtraction within 100",
+      "location": "Cinema",
+      "minigameNames": [
+        {
+          "title": "Learn Subtraction Without Regrouping",
+          "performance_weights": ["50", "40", "10"]
+        },
+        {
+          "title": "Learn Subtraction With Regrouping",
+          "performance_weights": ["50", "40", "10"]
+        }
+      ]
+    },
+    {
+      "title": "Money",
+      "location": "Bank",
+      "minigameNames": [
+        {
+          "title": "Learning about Money",
+          "performance_weights": ["50", "60", "10"]
+        },
+        {
+          "title": "Finding Out the Amount of Money",
+          "performance_weights": ["50", "20", "30"]
+        },
+        {
+          "title": "Addition and Subtraction with Money",
+          "performance_weights": ["50", "20", "30"]
+        }
+      ]
+    }
+  ]
+}

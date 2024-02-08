@@ -1,0 +1,43 @@
+[
+    {
+        "questions":[
+            {"question": "5 is greater than __", "answer": 1, "options": ["3", "6", "8"]},
+            {"question": "7 is greater than __", "answer": 1, "options": ["9", "6", "8"]},
+            {"question": "4 is greater than __", "answer": 0, "options": ["2", "6", "7"]},
+            {"question": "6 is greater than __", "answer": 2, "options": ["9", "8", "4"]},
+            {"question": "3 is greater than __", "answer": 0, "options": ["2", "9", "5"]},
+            {"question": "What is 1 less than 4?", "answer": 0, "options": ["3"]},
+            {"question": "What is 1 less than 9?", "answer": 0, "options": ["8"]},
+            {"question": "What is 1 less than 2?", "answer": 0, "options": ["1"]},
+            {"question": "What is 1 less than 6?", "answer": 0, "options": ["5"]},
+            {"question": "What is 1 less than 5?", "answer": 0, "options": ["4"]},
+            {"question": "Complete the number pattern. 3 __ 5", "answer": 0, "options": ["4"]},
+            {"question": "Complete the number pattern. __ 6 7 8", "answer": 0, "options": ["5"]},
+            {"question": "Complete the number pattern. __ 1 2 3", "answer": 0, "options": ["0"]},
+            {"question": "Complete the number pattern. 4 5 6 __", "answer": 0, "options": ["7"]},
+            {"question": "Complete the number pattern. 5 6 __ 8", "answer": 0, "options": ["7"]},
+            {"question": "Complete the number pattern. 3 4 5 __", "answer": 0, "options": ["6"]},
+            {"question": "Complete the number pattern. 8 7 6 __ 4 3", "answer": 0, "options": ["5"]}
+        ],
+        "chapter": 1
+    },
+    {
+        "questions":[
+                {"question": "2 and 1 make?", "answer": 0, "options": ["3", "5", "8"]},
+                {"question": "1 and 1 make?", "answer": 2, "options": ["3", "1", "2"]},
+                {"question": "1 and 3 make?", "answer": 1, "options": ["7", "4", "2"]},
+                {"question": "1 and 0 make?", "answer": 2, "options": ["4", "9", "1"]},
+                {"question": "3 and 0 make?", "answer": 0, "options": ["3", "5", "7.5"]},
+                {"question": "4 + ? = 7", "answer": 1, "options": ["4", "3", "6"]},
+                {"question": "5 + 3 =?", "answer": 1, "options": ["6", "8", "10"]},
+                {"question": "? + 3 = 6", "answer": 2, "options": ["4", "3", "2"]},
+                {"question": "2 + 6 = ?", "answer": 0, "options": ["8", "7", "5"]},
+                {"question": "8 + 0 = ?", "answer": 1, "options": ["0", "8", "7"]},
+                {"question": "Mary has 1 sticker. Ben has 6 stickers. How many stickers do they have altogether?", "answer": 0, "options": ["7", "5", "2"]},
+                {"question": "There are 3 apples and 4 bananas on a plate. How many apples and bananas are there altogether?", "answer": 0, "options": ["7", "5", "2"]},
+                {"question": "Jill flies 4 airplanes. Jackson flies 5 airplanes. How many airplanes do Jill and Jackson fly altogether?", "answer": 0, "options": ["9", "5", "2"]},
+                {"question": "Jerry went to a farm. He saw 3 pigs, 2 ducks and 1 cow. How many animals did Jerry see altogether?", "answer": 0, "options": ["6", "5", "2"]}
+            ],
+        "chapter": 3
+    }
+]
